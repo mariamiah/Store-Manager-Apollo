@@ -1,13 +1,11 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Login } from './components/Login';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { LoginContainer } from './containers/Login';
 
 export const App = () => (
   <BrowserRouter>
-    <div>
-      <Switch>
-        <Route path="/" exact strict component={Login} />
-      </Switch>
-    </div>
+      <Routes>
+        <Route path="/" element={<LoginContainer />} />
+      </Routes>
   </BrowserRouter>
 );

@@ -12,7 +12,7 @@ Store Manager is a web application that helps store owners manage sales and prod
 ### Technologies used to build the application
 - [ReactJS](https://reactjs.org)
 - [Webpack](https://webpack.js.org/)
-- [ArgonCss](https://demos.creative-tim.com/argon-design-system/docs/getting-started/quick-start.html)
+- [Material-UI](https://material-ui.com/)
 - [Apollo Client](https://www.apollographql.com/docs/react/api/core/ApolloClient/)
 
 ### Getting Started
